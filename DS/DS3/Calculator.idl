@@ -1,0 +1,8 @@
+module CalcApp {
+    interface Calculator {
+        long add(in long a, in long b);
+        long subtract(in long a, in long b);
+        long multiply(in long a, in long b);
+        float divide(in float a, in float b);
+    };
+};
